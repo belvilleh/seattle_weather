@@ -48,7 +48,7 @@ Include a short discussion of the findings and what they imply.
 
 ## Authors
 
-- Hannah Belville - [@yourhandle](https://github.com/yourhandle)
+- Hannah Belville - @belvilleh (https://github.com/belvilleh)
 
 ---
 
@@ -62,4 +62,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Tools/libraries used
 - Tutorials or papers referenced
+
 - Inspiration or collaborators
