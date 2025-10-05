@@ -10,7 +10,7 @@ Summary analysis of precipitation data to determine which city receives more ann
 
 - **Objective:** Determine if Seattle rains more than Kailua-Kona
 - **Domain:** Climate
-- **Key Techniques:** (e.g., Regression, Classification, Clustering, NLP, Time Series)
+- **Key Techniques:** Imputed missing data using average
 
 ---
 
@@ -29,26 +29,26 @@ Summary analysis of precipitation data to determine which city receives more ann
 ## Data
 
 - **Source:** (https://www.ncei.noaa.gov/cdo-web/search)
-- **Description:** Brief overview of the dataset features, size, and format
-- **License:** (if applicable)
+- **Description:** General precipitation records including inches of snow and rainfall
+- **License:** N/A
 
 ---
 
 ## Analysis
 
-Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
+Weather_Data notebook should be executed in order, and can be executed in indiviudal sections. Required data files are stored in ../data.
 
 ---
 
 ## Results
 
-Include a short discussion of the findings and what they imply.
+Seattle, Washington receives significantly more rainfall than Kona, Hawaii. The amount of precipitation in Seattle almost doubles the rainfall in Kona, and the snowfall in Seattle only accounts for a small portion of that precipitation. The only months where Seattle and Kona are not significantly different are March, May, and June.
 
 ---
 
 ## Authors
 
-- Hannah Belville - [@yourhandle](https://github.com/yourhandle)
+- Hannah Belville - [@belvilleh](https://github.com/belvilleh)
 
 ---
 
@@ -60,6 +60,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
-- Tools/libraries used
+- Tools/libraries used:
+        pandas
+        numpy
+        matplotlib.pyplot
+        seaborn
+        scipy
 - Tutorials or papers referenced
+        Data processing instructions from Dr. Fischer via Canvas
 - Inspiration or collaborators
+        Self completed
